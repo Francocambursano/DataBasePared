@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">francocambursano</string>
+    <string name="boton1">piso</string>
+    <string name="boton2">pared</string>
+    <string name="boton3">escaleras</string>
+    <string name="boton4">tejas</string>
+    <string name="title_activity_francomaps">Map</string>
+
+</resources>
