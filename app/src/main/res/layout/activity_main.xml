@@ -13,10 +13,9 @@
         android:layout_height="54dp"
         android:layout_marginStart="76dp"
         android:layout_marginLeft="76dp"
-        android:text="@string/boton1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        tools:text="@string/boton1" />
+        tools:text="@string/botonpiso" />
 
     <TextView
         android:id="@+id/textView"
@@ -32,7 +31,6 @@
         tools:text="@string/titulo" />
 
     <Button
-        android:id="@+id/btn4"
         android:layout_width="82dp"
         android:layout_height="53dp"
         android:layout_marginEnd="84dp"
@@ -41,7 +39,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView5"
-        tools:text="@string/boton4" />
+        tools:text="@string/botontejas" />
 
     <Button
         android:id="@+id/btn2"
@@ -55,7 +53,6 @@
         tools:text="@string/BotonPared" />
 
     <Button
-        android:id="@+id/btn3"
         android:layout_width="104dp"
         android:layout_height="53dp"
         android:layout_marginStart="60dp"
@@ -64,9 +61,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        tools:text="@string/boton3" />
+        tools:text="@string/botonescalera" />
 
     <ImageView
+        android:contentDescription="@string/imgpiso"
         android:id="@+id/imageView"
         android:layout_width="144dp"
         android:layout_height="135dp"
@@ -78,6 +76,7 @@
         app:srcCompat="@mipmap/imagen_de_piso" />
 
     <ImageView
+        android:contentDescription="@string/imgpared"
         android:id="@+id/imageView2"
         android:layout_width="150dp"
         android:layout_height="132dp"
@@ -90,6 +89,7 @@
         app:srcCompat="@mipmap/imagen_de_pared" />
 
     <ImageView
+        android:contentDescription="@string/imgyeso"
         android:id="@+id/imageView4"
         android:layout_width="135dp"
         android:layout_height="142dp"
@@ -101,6 +101,7 @@
         app:srcCompat="@mipmap/imagen_de_escaleras" />
 
     <ImageView
+        android:contentDescription="@string/imgtejas"
         android:id="@+id/imageView5"
         android:layout_width="133dp"
         android:layout_height="139dp"
@@ -115,13 +116,13 @@
         android:id="@+id/buttonmaps"
         android:layout_width="116dp"
         android:layout_height="39dp"
-        android:text="maps"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.958" />
+        app:layout_constraintVertical_bias="0.958"
+        tools:text="@string/google_maps_key" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

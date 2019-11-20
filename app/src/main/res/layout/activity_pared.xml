@@ -15,14 +15,16 @@
         android:layout_marginTop="52dp"
         android:ems="10"
         android:inputType="number"
+        android:text="@string/txt_codigo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.048"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.004"
+        tools:text="@string/txt_codigo"
         tools:ignore="Autofill"
-        tools:text="@string/txt_codigo" />
+        />
 
     <EditText
         android:id="@+id/txt_descripcion"
@@ -33,7 +35,7 @@
         android:layout_marginTop="40dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text="@string/txt_descripcion"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_codigo"
         tools:text="@string/txt_descripcion"
@@ -61,11 +63,9 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="44dp"
         android:onClick="Registrar"
-        android:text="Button1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_precio"
-        tools:text="@string/BontonRegistrar"
-        tools:ignore="Autofill"/>
+        tools:text="@string/BotonRegistrar" />
 
     <Button
         android:id="@+id/button2"
@@ -75,11 +75,9 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="44dp"
         android:onClick="Buscar"
-        android:text="Button2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button"
-        tools:text="@string/BotonBuscar"
-        tools:ignore="Autofill"/>
+        tools:text="@string/BotonBuscar" />
 
     <Button
         android:id="@+id/button3"
@@ -89,7 +87,6 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="40dp"
         android:onClick="Modificar"
-        android:text="Button3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2"
         tools:text="@string/BotonModificar" />
@@ -102,7 +99,6 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="44dp"
         android:onClick="Eliminar"
-        android:text="Button4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3"
         tools:text="@string/BotonEliminar" />
