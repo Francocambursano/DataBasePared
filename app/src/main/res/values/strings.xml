@@ -1,17 +1,15 @@
 <resources>
     <string name="titulo">Calculo de Material</string>
     <string name="app_name">francocambursano</string>
-    <string name="boton1">piso</string>
+    <string name="botonpiso">piso</string>
     <string name="BotonPared">pared</string>
-    <string name="boton3">escaleras</string>
-    <string name="boton4">tejas</string>
+    <string name="botonescalera">escaleras</string>
+    <string name="botontejas">tejas</string>
     <string name="title_activity_francomaps">Map</string>
     <string name="imgpiso">imagenpiso</string>
     <string name="imgpared">imagenpared</string>
     <string name="imgtejas">imagentejas</string>
     <string name="imgyeso">imagenyeso</string>
-
-
 
     <string name="txt_codigo">Codigo del Producto</string>
     <string name="txt_descripcion">Descripcion del producto</string>
